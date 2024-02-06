@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\1\\.nuget\\packages\\": {}
+    "C:\\Users\\Nikit\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1\\Desktop\\C#REPOS - Copy\\C-2-Reflect_2\\C#2 Reflect_2.csproj",
+      "projectUniqueName": "E:\\VS_CODE\\C#2 Reflect_2_2\\C-2-Reflect_2\\C#2 Reflect_2.csproj",
       "projectName": "C#2 Reflect_2",
-      "projectPath": "C:\\Users\\1\\Desktop\\C#REPOS - Copy\\C-2-Reflect_2\\C#2 Reflect_2.csproj",
-      "packagesPath": "C:\\Users\\1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1\\Desktop\\C#REPOS - Copy\\C-2-Reflect_2\\obj\\",
+      "projectPath": "E:\\VS_CODE\\C#2 Reflect_2_2\\C-2-Reflect_2\\C#2 Reflect_2.csproj",
+      "packagesPath": "C:\\Users\\Nikit\\.nuget\\packages\\",
+      "outputPath": "E:\\VS_CODE\\C#2 Reflect_2_2\\C-2-Reflect_2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\1\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
