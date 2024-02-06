@@ -4,6 +4,8 @@ using C_2_Reflect_2.Models;
 Book book = new();
 
 GetTypeObject(new Car());
+GetTypeObject(new Book());
+GetTypeObject(new Empl());
 
 
 
@@ -30,4 +32,10 @@ static void GetTypeObject(object data)
 	Type type = typeof(Book);
 	//Get fields
 	PropertyInfo?[] fieldInfos = typeOfObject.GetProperties();
+
+	foreach (PropertyInfo item in fieldInfos)
+	{
+		System.Console.WriteLine(item.Name);
+	}
+
 }
