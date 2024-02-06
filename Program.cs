@@ -7,11 +7,10 @@ GetTypeObject(new Car());
 GetTypeObject(new Book());
 GetTypeObject(new Empl());
 
-
-
-static void GetTypeObject(object data)
+static void GetTypeObject<T>(T data)
 {
 	Type typeOfObject = null;
+	object mainDataUser = null;
 
 	//Get type object
 	switch (data)
@@ -29,13 +28,15 @@ static void GetTypeObject(object data)
 			break;
 	}
 
-	Type type = typeof(Book);
 	//Get fields
 	PropertyInfo?[] fieldInfos = typeOfObject.GetProperties();
 
 	foreach (PropertyInfo item in fieldInfos)
 	{
-		System.Console.WriteLine(item.Name);
+		System.Console.WriteLine($"Enter: {item.Name}");
+		string inputUser = Console.ReadLine();
+		object? changeValue = Convert.ChangeType(inputUser, item.PropertyType);
+		item.SetValue(data, changeValue);
 	}
-
+	System.Console.WriteLine();
 }
