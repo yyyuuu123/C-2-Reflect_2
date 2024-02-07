@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\VS_CODE\\C#Reflection2\\Next\\C-2-Reflect_2\\C#2 Reflect_2.csproj": {}
+    "E:\\VS_CODE\\C#2Reflection\\C-2-Reflect_2\\C#2 Reflect_2.csproj": {}
   },
   "projects": {
-    "E:\\VS_CODE\\C#Reflection2\\Next\\C-2-Reflect_2\\C#2 Reflect_2.csproj": {
+    "E:\\VS_CODE\\C#2Reflection\\C-2-Reflect_2\\C#2 Reflect_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\VS_CODE\\C#Reflection2\\Next\\C-2-Reflect_2\\C#2 Reflect_2.csproj",
+        "projectUniqueName": "E:\\VS_CODE\\C#2Reflection\\C-2-Reflect_2\\C#2 Reflect_2.csproj",
         "projectName": "C#2 Reflect_2",
-        "projectPath": "E:\\VS_CODE\\C#Reflection2\\Next\\C-2-Reflect_2\\C#2 Reflect_2.csproj",
+        "projectPath": "E:\\VS_CODE\\C#2Reflection\\C-2-Reflect_2\\C#2 Reflect_2.csproj",
         "packagesPath": "C:\\Users\\Nikit\\.nuget\\packages\\",
-        "outputPath": "E:\\VS_CODE\\C#Reflection2\\Next\\C-2-Reflect_2\\obj\\",
+        "outputPath": "E:\\VS_CODE\\C#2Reflection\\C-2-Reflect_2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nikit\\AppData\\Roaming\\NuGet\\NuGet.Config",
