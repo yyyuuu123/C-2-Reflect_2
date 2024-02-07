@@ -25,5 +25,10 @@ namespace C_2_Reflect_2
 			}
 			System.Console.WriteLine();
 		}
+
+		static public void PrintAnyModel<T>(List<T> models)
+		{
+			Type type = models.GetType();
+		}
 	}
 }
