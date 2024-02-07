@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Reflection;
+using System.Runtime.Serialization;
 
 namespace C_2_Reflect_2
 {
@@ -48,9 +49,13 @@ namespace C_2_Reflect_2
 
 			List<string> detailsItems = new();
 
-			foreach (T item in models)
+			foreach (T modelItem in models)
 			{
-
+				foreach (PropertyInfo prop in fieldInfos)
+				{
+					object item = prop.GetValue(modelItem);
+					string itemtext = item.ToString();
+				}
 			}
 
 		}
