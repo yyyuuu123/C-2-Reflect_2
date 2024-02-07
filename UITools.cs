@@ -13,7 +13,7 @@ namespace C_2_Reflect_2
 			Type modelType = model.GetType(); //it's work too the same
 											  //Type typeOfObject = typeof(modelObj); //prefer this
 
-			//Get fields
+			//Get Property
 			PropertyInfo?[] fieldInfos = modelType.GetProperties();
 
 			foreach (PropertyInfo item in fieldInfos)
@@ -29,6 +29,8 @@ namespace C_2_Reflect_2
 		static public void PrintAnyModel<T>(List<T> models)
 		{
 			Type type = models.GetType();
+
+
 		}
 	}
 }
