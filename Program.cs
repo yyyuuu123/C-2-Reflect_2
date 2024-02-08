@@ -23,7 +23,10 @@ Car car2 = new()
 	Year = 2028
 };
 
+
+
 List<Book> books = new() { book1, book2 };
 List<Car> cars = new() { car1, car2 };
 
 UITools.PrintAnyModel(books);
+UITools.PrintAnyModel(cars);
