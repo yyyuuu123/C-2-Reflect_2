@@ -4,6 +4,7 @@ namespace C_2_Reflect_2
 {
     public class UITools
     {
+        const int ADD_FIELD_LENG = 2;
         static public void FillAnyModel(object model)
         {
             Type modelType = model.GetType(); //it's work too the same
